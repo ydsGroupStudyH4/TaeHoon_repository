@@ -1,0 +1,25 @@
+'''
+'''
+번호 : 
+타이틀 : 
+문제 타입 : 
+https://
+'''
+
+import sys
+from collections import deque # 큐를 사용할 때
+
+sys.stdin=open("9012.txt","r")
+input=sys.stdin.readline
+
+"""
+  input 유형
+  1. 한 줄에 숫자 1개 ex) 6 
+    -> n = int(input())
+  2. 한 줄에 숫자 여러개 ex) 3, 5, 7, 9
+    -> list = list(map(int, input().split()))
+    -> a, b, c = map(int, input().split())
+  3. 한 줄에 문자형 여러개 ex) A, B, C
+    -> a = map(str, input().split())
+  
+"""
